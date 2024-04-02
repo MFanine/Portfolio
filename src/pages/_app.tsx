@@ -31,14 +31,11 @@ function MyApp({ Component, pageProps, router }: AppProps) {
             <Head>
                 <meta charSet="utf-8" />
                 <title>Mouad FANINE</title>
-                <link rel="icon" href="/portfolio.jpg" />
+                <link rel="icon" href="/portf2.png" />
                 <meta name="viewport" content="width=device-width,initial-scale=1" />
                 <meta name="theme-color" content="#000000" />
-                <meta
-                    name="keywords"
-                    content="Mouad Fanine, web developer, github, typescript"
-                />
-                <meta name="description" content="Seemo - Software Engineer" />
+                <meta name="keywords" content="Mouad Fanine, web developer, github, typescript" />
+                <meta name="description" content="Mouad Fanine - Software Engineer" />
                 <meta name="author" content="Fanine" />
                 <link rel="vercel.svg" href="/vercel.svg" />
             </Head>
@@ -51,7 +48,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
                     </AnimatePresence>
                     <Footer />
                 </div>
-                
             </div>
         </>
     );

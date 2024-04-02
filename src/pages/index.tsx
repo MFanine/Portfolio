@@ -130,8 +130,8 @@ const Index = ({ stats, topRepos }: AppProps) => {
 };
 
 export async function getStaticProps() {
-    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/Seemo0`).then(res => res.json());
-    const repos = await fetch(`https://api.github.com/users/Seemo0/repos?type=owner&per_page=100`).then(res =>
+    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/MFanine`).then(res => res.json());
+    const repos = await fetch(`https://api.github.com/users/MFanine/repos?type=owner&per_page=100`).then(res =>
         res.json()
     );
 
